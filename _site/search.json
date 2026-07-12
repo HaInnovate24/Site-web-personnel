@@ -33,5 +33,47 @@
     "title": "Curriculum Vitae",
     "section": "Compétences",
     "text": "Compétences"
+  },
+  {
+    "objectID": "docs/bookmarks.html",
+    "href": "docs/bookmarks.html",
+    "title": "Helpful resources",
+    "section": "",
+    "text": "The evolution of trust by Nicky Case —  L’évolution de la confiance\nSolving Rush Hour by Michael Fogleman\nWhat if? (serious answers to absurd questions)\n Python pour la data science"
+  },
+  {
+    "objectID": "docs/bookmarks.html#science",
+    "href": "docs/bookmarks.html#science",
+    "title": "Helpful resources",
+    "section": "",
+    "text": "The evolution of trust by Nicky Case —  L’évolution de la confiance\nSolving Rush Hour by Michael Fogleman\nWhat if? (serious answers to absurd questions)\n Python pour la data science"
+  },
+  {
+    "objectID": "docs/bookmarks.html#society",
+    "href": "docs/bookmarks.html#society",
+    "title": "Helpful resources",
+    "section": "Society",
+    "text": "Society\n\nTea consent"
+  },
+  {
+    "objectID": "docs/bookmarks.html#funny",
+    "href": "docs/bookmarks.html#funny",
+    "title": "Helpful resources",
+    "section": "Funny",
+    "text": "Funny\n\nCommit Strip\nConway’s Game of Life\n\nInteractive simulation"
+  },
+  {
+    "objectID": "docs/bookmarks.html#puzzles",
+    "href": "docs/bookmarks.html#puzzles",
+    "title": "Helpful resources",
+    "section": "Puzzles",
+    "text": "Puzzles\n\n Lokee avent\n Zupple\n La chasse aux œufs\nAdvent of code"
+  },
+  {
+    "objectID": "docs/bookmarks.html#tools",
+    "href": "docs/bookmarks.html#tools",
+    "title": "Helpful resources",
+    "section": "Tools",
+    "text": "Tools\n\nArchifiltre, Datavisualization of your file tree. Easily spot duplicates, large files and old files"
   }
 ]
