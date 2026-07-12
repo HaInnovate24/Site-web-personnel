@@ -1,0 +1,58 @@
+---
+title: "Curriculum Vitae"
+subtitle: "Haïwé ADAM OUAGKO | Élève ingénieur à l'ENSAI"
+format: html
+from: markdown+emoji
+about:
+    id: pour_application_image
+    template: jolla
+    image: images/IMG_6536.JPG
+    #image-shape: round
+    links: 
+      - icon: github
+        text: "GitHub Projects"
+        href: https://github.com/settings/education/benefits
+      - icon: LinkedIn
+        text: LinkedIn profile
+        href: https://github.com/settings/education/benefits
+
+---
+
+:::{#pour_application_image}
+
+{{<lipsum 1>}}
+
+:::
+
+## Formations
+
+- Statistique & Data Science - École Nationale de la Statistique et de l'Analyse de l'Information (ENSAI)
+- Licence Mathématiques & Informatique appliquées aux SHS (MIASHS) - Université Grenoble Alpes
+
+## Expériences
+
+### STAGE
+
+#### AGEIS - Autonomie, Gérontechnologie, E-santé, Imagerie et Société (Grenoble) | 01/2025 05/2025
+
+- tude de l’endémie de maladies arbovirales et du moustique *Aedes albopictus* dans les Antilles et à Mayotte; analogies avec le Sud de la France selon les variables climatiques.
+    - Collecte et traitement des données épidémiologiques et climatiques rapports PDF de Santé Publique France.
+    - Statistiques descriptives et inférentielles (tests non paramétriques).
+    - Production de cartographies thématiques des indicateurs climatiques, entomologiques et arboviraux.
+    - Comparaison des dynamiques observées dans les Antilles / Mayotte et le Sud de la France.
+
+### Projet de recherche professionnel - AGEIS (Grenoble) | 10/2024 01/2025
+
+- Cartographie et analyse statistique de la montée du moustique tigre et de ses impacts sanitaires dans le Sud de la France.
+
+    - Collecte des données de températures, précipitations, cas et prévalences par zone géographique.
+    - Développement d’une cartographie pour analyser les interactions climat incidences pathogènes.
+    - Réalisation de tests statistiques (corrélations, régressions spatio-temporelles).
+
+### Projets universitaires
+#### Statistique - économie 
+<!-- Impact du soutient familiale sur la performance scolaire- DonnØes PISA 2022.
+Analyse de l’impact in ationniste des chocs exogŁnes sur les prix du gaz en Afrique.
+Machine Learning ModØlisation prØdictive du diabŁte de type 2 (population Pima).
+conomØtrie tude des dØterminants du prix des biens immobiliers. -->
+

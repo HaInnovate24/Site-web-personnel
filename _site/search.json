@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sagittis posuere ligula sit amet lacinia. Duis dignissim pellentesque magna, rhoncus congue sapien finibus mollis. Ut eu sem laoreet, vehicula ipsum in, convallis erat. Vestibulum magna sem, blandit pulvinar augue sit amet, auctor malesuada sapien. Nullam faucibus leo eget eros hendrerit, non laoreet ipsum lacinia. Curabitur cursus diam elit, non tempus ante volutpat a. Quisque hendrerit blandit purus non fringilla. Integer sit amet elit viverra ante dapibus semper. Vestibulum viverra rutrum enim, at luctus enim posuere eu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.\n \n  \n   \n  \n    \n     GitHub Projects\n  \n  \n    \n     LinkedIn profile"
+  },
+  {
+    "objectID": "index.html#formations",
+    "href": "index.html#formations",
+    "title": "Curriculum Vitae",
+    "section": "Formations",
+    "text": "Formations\n\nStatistique & Data Science - École Nationale de la Statistique et de l’Analyse de l’Information (ENSAI)\nLicence Mathématiques & Informatique appliquées aux SHS (MIASHS) - Université Grenoble Alpes"
+  },
+  {
+    "objectID": "index.html#expériences",
+    "href": "index.html#expériences",
+    "title": "Curriculum Vitae",
+    "section": "Expériences",
+    "text": "Expériences\n\nSTAGE\n\nAGEIS - Autonomie, Gérontechnologie, E-santé, Imagerie et Société (Grenoble) | 01/2025 05/2025\n\ntude de l’endémie de maladies arbovirales et du moustique Aedes albopictus dans les Antilles et à Mayotte; analogies avec le Sud de la France selon les variables climatiques.\n\nCollecte et traitement des données épidémiologiques et climatiques rapports PDF de Santé Publique France.\nStatistiques descriptives et inférentielles (tests non paramétriques).\nProduction de cartographies thématiques des indicateurs climatiques, entomologiques et arboviraux.\nComparaison des dynamiques observées dans les Antilles / Mayotte et le Sud de la France.\n\n\n\n\n\nProjet de recherche professionnel - AGEIS (Grenoble) | 10/2024 01/2025\n\nCartographie et analyse statistique de la montée du moustique tigre et de ses impacts sanitaires dans le Sud de la France.\n\nCollecte des données de températures, précipitations, cas et prévalences par zone géographique.\nDéveloppement d’une cartographie pour analyser les interactions climat incidences pathogènes.\nRéalisation de tests statistiques (corrélations, régressions spatio-temporelles).\n\n\n\n\nProjets universitaires\n\nStatistique - économie"
+  }
+]
