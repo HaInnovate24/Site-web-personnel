@@ -4,20 +4,34 @@
     "href": "index.html",
     "title": "Curriculum Vitae",
     "section": "",
-    "text": "Hello! My name is Ludovic Deneuville. I hold a degree from Polytech’Lille engineering school, specializing in Computer Science, Microelectronics, and Automation. I’m an INSEE agent currently working as a teacher at ENSAI (France’s Top Graduate School for Statistics and Data Analysis).\nI teach various subjects and practical work centered on: Python, SQL, Git, Testing, Code documentation, Java, Big Data.\nI like sports, especially volleyball and surfing. I also enjoy running, swimming and hiking. I’ve been playing chess for a long time (elo rating: 2000), and like to try out different strategies in board games."
+    "text": "Bonjour ! Je m’appelle Haïwé ADAM OUANGKO, élève ingénieur en avant-dernière année à l’École Nationale de la Statistique et de l’Analyse de l’Information ENSAI (France’s Top Graduate School for Statistics and Data Analysis).\nJ’aime le sport, en particulier le football et le tennis. Je joue à EA SPORTS FC depuis longtemps, et j’aime expérimenter différentes stratégies de jeu."
   },
   {
     "objectID": "index.html#formations",
     "href": "index.html#formations",
     "title": "Curriculum Vitae",
     "section": "Formations",
-    "text": "Formations\n\nStatistique & Data Science - École Nationale de la Statistique et de l’Analyse de l’Information (ENSAI)\nLicence Mathématiques & Informatique appliquées aux SHS (MIASHS) - Université Grenoble Alpes"
+    "text": "Formations\n\nStatistique et Data Science - École Nationale de la Statistique et de l’Analyse de l’Information (ENSAI)\nLicence Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales (MIASHS) - Université Grenoble Alpes"
   },
   {
     "objectID": "index.html#expériences",
     "href": "index.html#expériences",
     "title": "Curriculum Vitae",
     "section": "Expériences",
-    "text": "Expériences\n\nSTAGE\n\nAGEIS - Autonomie, Gérontechnologie, E-santé, Imagerie et Société (Grenoble) | 01/2025 05/2025\n\ntude de l’endémie de maladies arbovirales et du moustique Aedes albopictus dans les Antilles et à Mayotte; analogies avec le Sud de la France selon les variables climatiques.\n\nCollecte et traitement des données épidémiologiques et climatiques rapports PDF de Santé Publique France.\nStatistiques descriptives et inférentielles (tests non paramétriques).\nProduction de cartographies thématiques des indicateurs climatiques, entomologiques et arboviraux.\nComparaison des dynamiques observées dans les Antilles / Mayotte et le Sud de la France.\n\n\n\n\n\nProjet de recherche professionnel - AGEIS (Grenoble) | 10/2024 01/2025\n\nCartographie et analyse statistique de la montée du moustique tigre et de ses impacts sanitaires dans le Sud de la France.\n\nCollecte des données de températures, précipitations, cas et prévalences par zone géographique.\nDéveloppement d’une cartographie pour analyser les interactions climat incidences pathogènes.\nRéalisation de tests statistiques (corrélations, régressions spatio-temporelles).\n\n\n\n\nProjets universitaires\n\nStatistique - économie"
+    "text": "Expériences\n\nSTAGE\n\nAGEIS - Autonomie, Gérontechnologie, E-santé, Imagerie et Société (Grenoble) | 01/2025 05/2025\n\ntude de l’endémie de maladies arbovirales et du moustique Aedes albopictus dans les Antilles et à Mayotte; analogies avec le Sud de la France selon les variables climatiques.\n\nCollecte et traitement des données épidémiologiques et climatiques rapports PDF de Santé Publique France.\nStatistiques descriptives et inférentielles (tests non paramétriques).\nProduction de cartographies thématiques des indicateurs climatiques, entomologiques et arboviraux.\nComparaison des dynamiques observées dans les Antilles / Mayotte et le Sud de la France.\n\n\n\n\n\nProjet de recherche professionnel - AGEIS (Grenoble) | 10/2024 01/2025\n\nCartographie et analyse statistique de la montée du moustique tigre et de ses impacts sanitaires dans le Sud de la France.\n\nCollecte des données de températures, précipitations, cas et prévalences par zone géographique.\nDéveloppement d’une cartographie pour analyser les interactions climat incidences pathogènes.\nRéalisation de tests statistiques (corrélations, régressions spatio-temporelles).\n\n\n\n\nProjets universitaires\n\nStatistique : Impact du soutient familiale sur la performance scolaire- Données PISA 2022\nÉconomie : Analyse de l’impact inflationniste des chocs exogènes sur les prix du gaz en Afrique.\nMachine Learning : Modélisation prédictive du diabète de type 2 (population Pima).\nÉconométrie : tude des déterminants du prix des biens immobiliers."
+  },
+  {
+    "objectID": "index.html#expériences-professionnelles",
+    "href": "index.html#expériences-professionnelles",
+    "title": "Curriculum Vitae",
+    "section": "Expériences professionnelles",
+    "text": "Expériences professionnelles\n\nÉquipier de vente - Carrefour Meylan (Grenoble) | 07/2022 - 10/2024\n\nAccueillir et conseiller la clientèle ;\nOptimiser les stocks.\n\nAgent de tri postal - La Poste (Lyon) |  04/2021 - 07/2021\n\nAméliorer le rythme de production en respectant les normes de qualité."
+  },
+  {
+    "objectID": "index.html#compétences",
+    "href": "index.html#compétences",
+    "title": "Curriculum Vitae",
+    "section": "Compétences",
+    "text": "Compétences"
   }
 ]
