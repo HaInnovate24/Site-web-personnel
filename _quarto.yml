@@ -1,22 +1,43 @@
 project:
   type: website
+  render: 
+    - "**/*.qmd"
 
 website:
+  favicon: docs/img/favicon-32x32.png
   title: "My website"
   navbar:
-    background: "#447099"
+    background: "#AB8D3F"
+    #"#447099"
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+    right:
+      - href: docs/bookmarks.qmd
+        text: Helpful Resources
+      - icon: github
+        href: https://github.com/HaInnovate24
+        target: "_blank"
+  page-footer:
+    right: |
+      Website built with [Quarto](https://quarto.org/){.external target="_blank"}<br>
+      [Source Code](https://github.com/HaInnovate24/Site-web-personnel){.external target="_blank"}
+  repo-url: https://github.com/HaInnovate24/Site-web-personnel
+  repo-branch: main
+  reader-mode: true
 
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      dark: solar
+      light: cosmo
     css: styles.css
-    toc: true
 
-
-
+# format:
+#   html:
+#     theme:
+#       - cosmo
+#       - brand
+#     css: styles.css
+#     toc: true
