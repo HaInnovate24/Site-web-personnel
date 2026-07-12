@@ -40,11 +40,9 @@ about:
 
 ::: {.justify}
 
-Hello! My name is Ludovic Deneuville. I hold a degree from [Polytech'Lille](https://www.polytech-lille.fr/english/){target="_blank"} engineering school, specializing in Computer Science, Microelectronics, and Automation. I'm an [INSEE](https://www.insee.fr/en/accueil){target="_blank"} agent currently working as a teacher at [ENSAI](https://ensai.fr/en/){target="_blank"} (France’s Top Graduate School for Statistics and Data Analysis).
+Bonjour ! Je m'appelle Haïwé ADAM OUANGKO, élève ingénieur en avant-dernière année à l'École Nationale de la Statistique et de l'Analyse de l'Information [ENSAI](https://ensai.fr/en/){target="_blank"} (France’s Top Graduate School for Statistics and Data Analysis).
 
-I teach various subjects and practical work centered on: Python, SQL, Git, Testing, Code documentation, Java, Big Data.
-
-I like sports, especially volleyball and surfing. I also enjoy running, swimming and hiking. I've been playing chess for a long time (elo rating: 2000), and like to try out different strategies in board games.
+J'aime le sport, en particulier le football et le tennis. Je joue à EA SPORTS FC depuis longtemps, et j'aime expérimenter différentes stratégies de jeu.
 
 :::
 <!-- :::{#pour_application_image}
@@ -55,8 +53,8 @@ I like sports, especially volleyball and surfing. I also enjoy running, swimming
 
 ## Formations
 
-- Statistique & Data Science - École Nationale de la Statistique et de l'Analyse de l'Information (ENSAI)
-- Licence Mathématiques & Informatique appliquées aux SHS (MIASHS) - Université Grenoble Alpes
+- Statistique et Data Science - École Nationale de la Statistique et de l'Analyse de l'Information (ENSAI)
+- Licence Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales (MIASHS) - Université Grenoble Alpes
 
 ## Expériences
 
@@ -79,9 +77,20 @@ I like sports, especially volleyball and surfing. I also enjoy running, swimming
     - Réalisation de tests statistiques (corrélations, régressions spatio-temporelles).
 
 ### Projets universitaires
-#### Statistique - économie 
-<!-- Impact du soutient familiale sur la performance scolaire- DonnØes PISA 2022.
-Analyse de l’impact in ationniste des chocs exogŁnes sur les prix du gaz en Afrique.
-Machine Learning ModØlisation prØdictive du diabŁte de type 2 (population Pima).
-conomØtrie tude des dØterminants du prix des biens immobiliers. -->
+
+- Statistique : Impact du soutient familiale sur la performance scolaire- Données PISA 2022
+- Économie    : Analyse de l’impact inflationniste des chocs exogènes sur les prix du gaz en Afrique.
+- Machine Learning : Modélisation prédictive du diabète de type 2 (population Pima).
+- Économétrie  : tude des déterminants du prix des biens immobiliers.
+
+## Expériences professionnelles
+
+- Équipier de vente - Carrefour Meylan (Grenoble)  |  07/2022 - 10/2024
+  - Accueillir et conseiller la clientèle ; 
+  - Optimiser les stocks.
+
+- Agent de tri postal - La Poste (Lyon)            |\  04/2021 - 07/2021
+  - Améliorer le rythme de production en respectant les normes de qualité.
+
+## Compétences
 
