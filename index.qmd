@@ -5,7 +5,7 @@ from: markdown+emoji
 image: images/IMG_6536.JPG
 about:
   template: trestles
-  image-width: 12em
+  image-width: 15em
   image-shape: round
   links:
     - icon: github
@@ -89,8 +89,24 @@ J'aime le sport, en particulier le football et le tennis. Je joue à EA SPORTS F
   - Accueillir et conseiller la clientèle ; 
   - Optimiser les stocks.
 
-- Agent de tri postal - La Poste (Lyon)            |\  04/2021 - 07/2021
+- Agent de tri postal - La Poste (Lyon)            |  04/2021 - 07/2021
   - Améliorer le rythme de production en respectant les normes de qualité.
 
-## Compétences
+## Compétences techniques
+
+- Langages de programmation : R, Python, SQL et Gretl.
+
+### Soft skills : 
+
+- Autonomie et sens de l’initiative ;
+- Adaptabilité et ouverture culturelle ;
+- Collaboration et esprit d’équipe ;
+- Communication efficace ; 
+- Capacité d’adaptation aux outils numériques ;
+- Sens de la mission et du développement.
+
+## Centres d’intérêt
+
+Musique | Lecture | football, tennis, badminton et la randonnée.
+
 

@@ -25,7 +25,7 @@
     "href": "index.html#expériences-professionnelles",
     "title": "Curriculum Vitae",
     "section": "Expériences professionnelles",
-    "text": "Expériences professionnelles\n\nÉquipier de vente - Carrefour Meylan (Grenoble) | 07/2022 - 10/2024\n\nAccueillir et conseiller la clientèle ;\nOptimiser les stocks.\n\nAgent de tri postal - La Poste (Lyon) |  04/2021 - 07/2021\n\nAméliorer le rythme de production en respectant les normes de qualité."
+    "text": "Expériences professionnelles\n\nÉquipier de vente - Carrefour Meylan (Grenoble) | 07/2022 - 10/2024\n\nAccueillir et conseiller la clientèle ;\nOptimiser les stocks.\n\nAgent de tri postal - La Poste (Lyon) | 04/2021 - 07/2021\n\nAméliorer le rythme de production en respectant les normes de qualité."
   },
   {
     "objectID": "index.html#compétences",
@@ -75,5 +75,19 @@
     "title": "Helpful resources",
     "section": "Tools",
     "text": "Tools\n\nArchifiltre, Datavisualization of your file tree. Easily spot duplicates, large files and old files"
+  },
+  {
+    "objectID": "index.html#compétences-techniques",
+    "href": "index.html#compétences-techniques",
+    "title": "Curriculum Vitae",
+    "section": "Compétences techniques",
+    "text": "Compétences techniques\n\nLangages de programmation : R, Python, SQL et Gretl.\n\n\nSoft skills :\n\nAutonomie et sens de l’initiative ;\nAdaptabilité et ouverture culturelle ;\nCollaboration et esprit d’équipe ;\nCommunication efficace ;\nCapacité d’adaptation aux outils numériques ;\nSens de la mission et du développement."
+  },
+  {
+    "objectID": "index.html#centres-dintérêt",
+    "href": "index.html#centres-dintérêt",
+    "title": "Curriculum Vitae",
+    "section": "Centres d’intérêt",
+    "text": "Centres d’intérêt\nMusique | Lecture | football, tennis, badminton et la randonnée."
   }
 ]
