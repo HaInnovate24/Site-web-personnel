@@ -2,7 +2,7 @@
 title: "Curriculum Vitae"
 format: html
 from: markdown+emoji
-image: images/IMG_6536.JPG
+image: images/image_ensai.jpg
 about:
   template: trestles
   image-width: 15em
