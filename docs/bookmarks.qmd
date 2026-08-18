@@ -12,6 +12,7 @@ from: markdown+emoji
 - [What if? (serious answers to absurd questions)](https://what-if.xkcd.com/){target="_blank"}
 - ![FR](img/icon-fr.png) [Python pour la data science](https://pythonds.linogaliana.fr/){target="_blank"}
 
+
 ## Society
 
 - [Tea consent](https://www.youtube.com/watch?v=oQbei5JGiT8&ab_channel=BlueSeatStudios){target="_blank"}
@@ -32,6 +33,16 @@ from: markdown+emoji
 - [Advent of code](https://adventofcode.com/){target="_blank"}
 
 
-## Tools
+## Statistics and R
 
-- [Archifiltre](https://archifiltre.fr/docs){target="_blank"}, Datavisualization of your file tree. Easily spot duplicates, large files and old files
+- [utilitR](https://book.utilitr.org/){target="_blank"}, Collaborative documentation on `R` by Insee
+- [guide-R](https://larmarange.github.io/guide-R/){target="_blank"}, Guide to Analyzing Survey Data with R
+- [Contes et stats R](https://perso.ens-lyon.fr/lise.vaudor/grimoireStat/_book/intro.html){target="_blank"}
+- [Le blog - ThinkR - Certification & Formation langage R](https://thinkr.fr/blog/){target="_blank"}, A very interesting blog
+- [Introduction to R Training](https://teaching.slmc.fr/r/index.html){target="_blank"}, By Martin Chevalier (INSEE)
+- [Advanced R Training](https://teaching.slmc.fr/perf/){target="_blank"}, By Martin Chevalier (INSEE)
+
+## Data Analysis Course
+
+- [Analyze and clean your data with R](https://openclassrooms.com/fr/courses/8282361-analysez-et-nettoyez-vos-donnees-avec-r){target="_blank"}
+- [Stat' Apprendra](https://www.youtube.com/channel/UC_PsZx6zW4gSb2HqTPbKblg){target="_blank"}, A YouTube channel for popularizing statistics

@@ -89,5 +89,19 @@
     "title": "Helpful resources",
     "section": "Tools",
     "text": "Tools\n\nArchifiltre, Datavisualization of your file tree. Easily spot duplicates, large files and old files"
+  },
+  {
+    "objectID": "docs/bookmarks.html#statistics-and-r",
+    "href": "docs/bookmarks.html#statistics-and-r",
+    "title": "Helpful resources",
+    "section": "Statistics and R",
+    "text": "Statistics and R\n\nutilitR, Collaborative documentation on R by Insee\nguide-R, Guide to Analyzing Survey Data with R\nContes et stats R\nLe blog - ThinkR - Certification & Formation langage R, A very interesting blog\nIntroduction to R Training, By Martin Chevalier (INSEE)\nAdvanced R Training, By Martin Chevalier (INSEE)"
+  },
+  {
+    "objectID": "docs/bookmarks.html#data-analysis-course",
+    "href": "docs/bookmarks.html#data-analysis-course",
+    "title": "Helpful resources",
+    "section": "Data Analysis Course",
+    "text": "Data Analysis Course\n\nAnalyze and clean your data with R\nStat’ Apprendra, A YouTube channel for popularizing statistics"
   }
 ]
