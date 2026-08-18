@@ -1,12 +1,12 @@
 ---
-title: "Curriculum Vitae"
+title: "Haïwé ADAM OUANGKO - CV"
 subtitle: "Élève ingénieur en Statistique et Data Science — ENSAI"
 format: html
 from: markdown+emoji
 image: images/image_ensai.jpg
 about:
   template: trestles
-  image-width: 15em
+  image-width: 14em
   image-shape: round
   links:
     - icon: github
