@@ -1,5 +1,6 @@
 ---
 title: "Curriculum Vitae"
+subtitle: "Élève ingénieur en Statistique et Data Science — ENSAI"
 format: html
 from: markdown+emoji
 image: images/image_ensai.jpg
@@ -10,7 +11,7 @@ about:
   links:
     - icon: github
       text: Github
-      href: https://github.com/settings/education/benefits
+      href: https://github.com/HaInnovate24
       target: "_blank"
     - icon: envelope
       text: Email
@@ -19,94 +20,77 @@ about:
       text: LinkedIn
       href: https://www.linkedin.com/in/ha%C3%AFw%C3%A8-adam-ouangko-0377722b3/
       target: "_blank"
-# title: "Curriculum Vitae"
-# subtitle: "Haïwé ADAM OUAGKO | Élève ingénieur à l'ENSAI"
-# format: html
-# from: markdown+emoji
-# about:
-#     id: pour_application_image
-#     template: jolla
-#     image: images/IMG_6536.JPG
-#     #image-shape: round
-#     links: 
-#       - icon: github
-#         text: "GitHub Projects"
-#         href: https://github.com/settings/education/benefits
-#       - icon: LinkedIn
-#         text: LinkedIn profile
-#         href: https://github.com/settings/education/benefits
-
 ---
 
 ::: {.justify}
 
-Bonjour ! Je m'appelle Haïwé ADAM OUANGKO, élève ingénieur en avant-dernière année à l'École Nationale de la Statistique et de l'Analyse de l'Information [ENSAI](https://ensai.fr/en/){target="_blank"} (France’s Top Graduate School for Statistics and Data Analysis).
+Bonjour ! Je m'appelle Haïwé ADAM OUANGKO, élève ingénieur en avant-dernière année à l'École Nationale de la Statistique et de l'Analyse de l'Information ([ENSAI](https://ensai.fr/en/){target="_blank"}), l'une des grandes écoles françaises de référence en statistique et data science.
 
-J'aime le sport, en particulier le football et le tennis. Je joue à EA SPORTS FC depuis longtemps, et j'aime expérimenter différentes stratégies de jeu.
+De la cartographie environnementale à la modélisation prédictive, j'aime transformer des données brutes en résultats exploitables.
 
 :::
-<!-- :::{#pour_application_image}
-
-{{<lipsum 1>}}
-
-::: -->
 
 ## Formations
 
-- Statistique et Data Science - École Nationale de la Statistique et de l'Analyse de l'Information (ENSAI)
-- Licence Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales (MIASHS) - Université Grenoble Alpes
+**Statistique et Data Science** — École Nationale de la Statistique et de l'Analyse de l'Information (ENSAI)
+: Cycle ingénieur, avant-dernière année
 
-## Expériences
+**Licence Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales (MIASHS)** — Université Grenoble Alpes
 
-### STAGE
+## Publications
 
-#### AGEIS - Autonomie, Gérontechnologie, E-santé, Imagerie et Société (Grenoble) | 01/2025 05/2025
+Demongeot J, **H. Adam Ouangko**, M. Diarra, L. Gofti-Laroche (2025). *Forecasting epidemic peaks with the index of dispersion of new cases*. Frontiers in Applied Mathematics and Statistics, 11:1670077. [doi.org/10.3389/fams.2025.1670077](https://doi.org/10.3389/fams.2025.1670077)
 
-- tude de l’endémie de maladies arbovirales et du moustique *Aedes albopictus* dans les Antilles et à Mayotte; analogies avec le Sud de la France selon les variables climatiques.
-    - Collecte et traitement des données épidémiologiques et climatiques rapports PDF de Santé Publique France.
-    - Statistiques descriptives et inférentielles (tests non paramétriques).
-    - Production de cartographies thématiques des indicateurs climatiques, entomologiques et arboviraux.
-    - Comparaison des dynamiques observées dans les Antilles / Mayotte et le Sud de la France.
+## Expériences en Data Science / Statistique
 
-### Projet de recherche professionnel - AGEIS (Grenoble) | 10/2024 01/2025
+### Stage — AGEIS (Autonomie, Gérontechnologie, E-santé, Imagerie et Société), Grenoble
+**01/2025 – 05/2025**
 
-- Cartographie et analyse statistique de la montée du moustique tigre et de ses impacts sanitaires dans le Sud de la France.
+Étude de l'endémie de maladies arbovirales et du moustique *Aedes albopictus* dans les Antilles et à Mayotte, avec analogie au Sud de la France selon les variables climatiques.
 
-    - Collecte des données de températures, précipitations, cas et prévalences par zone géographique.
-    - Développement d’une cartographie pour analyser les interactions climat incidences pathogènes.
-    - Réalisation de tests statistiques (corrélations, régressions spatio-temporelles).
+- Collecte et traitement de données épidémiologiques et climatiques à partir de rapports PDF de Santé Publique France.
+- Statistiques descriptives et inférentielles (tests non paramétriques).
+- Production de cartographies thématiques des indicateurs climatiques, entomologiques et arboviraux.
+- Comparaison des dynamiques observées entre les Antilles/Mayotte et le Sud de la France.
+
+### Projet de recherche professionnel — AGEIS, Grenoble
+**10/2024 – 01/2025**
+
+Cartographie et analyse statistique de la progression du moustique tigre et de ses impacts sanitaires dans le Sud de la France.
+
+- Collecte de données de températures, précipitations, cas et prévalences par zone géographique.
+- Développement d'une cartographie croisant climat et incidence pathogène.
+- Réalisation de tests statistiques (corrélations, régressions spatio-temporelles).
 
 ### Projets universitaires
 
-- Statistique : Impact du soutient familiale sur la performance scolaire- Données PISA 2022
-- Économie    : Analyse de l’impact inflationniste des chocs exogènes sur les prix du gaz en Afrique.
-- Machine Learning : Modélisation prédictive du diabète de type 2 (population Pima).
-- Économétrie  : tude des déterminants du prix des biens immobiliers.
+- **Statistique** — Impact du soutien familial sur la performance scolaire (données PISA 2022)
+- **Économie** — Analyse de l'impact inflationniste des chocs exogènes sur les prix du gaz en Afrique
+- **Machine Learning** — Modélisation prédictive du diabète de type 2 (population Pima)
+- **Économétrie** — Étude des déterminants du prix des biens immobiliers
 
-## Expériences professionnelles
+## Autres expériences professionnelles
 
-- Équipier de vente - Carrefour Meylan (Grenoble)  |  07/2022 - 10/2024
-  - Accueillir et conseiller la clientèle ; 
-  - Optimiser les stocks.
+### Équipier de vente — Carrefour (Grenoble, puis Rennes Alma)
+**07/2022 – aujourd'hui**
 
-- Agent de tri postal - La Poste (Lyon)            |  04/2021 - 07/2021
-  - Améliorer le rythme de production en respectant les normes de qualité.
+- Accueil et conseil de la clientèle.
+- Optimisation des stocks.
+
+### Agent de tri postal — La Poste, Lyon
+**04/2021 – 07/2021**
+
+- Amélioration du rythme de production dans le respect des normes de qualité.
 
 ## Compétences techniques
 
-- Langages de programmation : R, Python, SQL et Gretl.
+**Langages et outils** : R · Python · SQL · Gretl
 
-### Soft skills : 
+::: {.callout-tip appearance="minimal"}
+**Soft skills** — Autonomie et sens de l'initiative · Adaptabilité et ouverture culturelle · Collaboration et esprit d'équipe · Communication efficace · Aisance avec les outils numériques
+:::
 
-- Autonomie et sens de l’initiative ;
-- Adaptabilité et ouverture culturelle ;
-- Collaboration et esprit d’équipe ;
-- Communication efficace ; 
-- Capacité d’adaptation aux outils numériques ;
-- Sens de la mission et du développement.
+## Centres d'intérêt
 
-## Centres d’intérêt
-
-Musique | Lecture | football, tennis, badminton et la randonnée.
-
+Musique · Lecture · Football · Tennis · Badminton · Randonnée · EA SPORTS FC
 
