@@ -51,7 +51,7 @@ from: markdown+emoji
       <a href="mailto:haiweadam99@gmail.com">Email</a>
       <a href="https://www.linkedin.com/in/ha%C3%AFw%C3%A8-adam-ouangko-0377722b3/" target="_blank">LinkedIn</a>
       <a href="https://github.com/HaInnovate24" target="_blank">GitHub</a>
-      <a href="CV_HAIWE_ADAM.pdf" download="CV_Haiwe_Adam_Ouangko.pdf">CV en PDF</a>
+      <a href="CV_HAIWE_ADAM.pdf" target="_blank" rel="noopener">CV en PDF</a>
     </nav>
   </div>
 </header>
