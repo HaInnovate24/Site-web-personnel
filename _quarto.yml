@@ -1,43 +1,32 @@
 project:
   type: website
-  render: 
+  resources:
+    - CV_HAIWE_ADAM.pdf
+  render:
     - "**/*.qmd"
 
 website:
   favicon: docs/img/favicon-32x32.png
-  title: "My website"
+  title: "Haïwé Adam Ouangko"
   navbar:
-    background: "#AB8D3F"
-    #"#447099"
+    background: "#0E1B2C"
     left:
       - href: index.qmd
-        text: Home
-      #- about.qmd
+        text: CV
     right:
       - href: docs/bookmarks.qmd
-        text: Helpful Resources
+        text: Ressources utiles
       - icon: github
         href: https://github.com/HaInnovate24
         target: "_blank"
   page-footer:
     right: |
-      Website built with [Quarto](https://quarto.org/){.external target="_blank"}<br>
-      [Source Code](https://github.com/HaInnovate24/Site-web-personnel){.external target="_blank"}
+      Site réalisé avec [Quarto](https://quarto.org/){.external target="_blank"}<br>
+      [Code source](https://github.com/HaInnovate24/Site-web-personnel){.external target="_blank"}
   repo-url: https://github.com/HaInnovate24/Site-web-personnel
   repo-branch: main
-  reader-mode: true
 
 format:
   html:
-    theme:
-      dark: solar
-      light: cosmo
+    theme: cosmo
     css: styles.css
-
-# format:
-#   html:
-#     theme:
-#       - cosmo
-#       - brand
-#     css: styles.css
-#     toc: true

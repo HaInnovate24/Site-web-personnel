@@ -1,96 +1,147 @@
 ---
-title: "Haïwé ADAM OUANGKO - CV"
-subtitle: "Élève ingénieur en Statistique et Data Science — ENSAI"
-format: html
+title: "Haïwé Adam Ouangko — CV"
+pagetitle: "Haïwé Adam Ouangko · Statistique & Data Science"
+format:
+  html:
+    page-layout: custom
+    title-block-style: none
+    toc: false
+    css: styles.css
 from: markdown+emoji
-image: images/image_ensai.jpg
-about:
-  template: trestles
-  image-width: 14em
-  image-shape: round
-  links:
-    - icon: github
-      text: Github
-      href: https://github.com/HaInnovate24
-      target: "_blank"
-    - icon: envelope
-      text: Email
-      href: mailto:haiweadam99@gmail.com
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/ha%C3%AFw%C3%A8-adam-ouangko-0377722b3/
-      target: "_blank"
 ---
 
-::: {.justify}
+```{=html}
+<main class="cv">
 
-Bonjour ! Je m'appelle Haïwé ADAM OUANGKO, élève ingénieur en avant-dernière année à l'École Nationale de la Statistique et de l'Analyse de l'Information ([ENSAI](https://ensai.fr/en/){target="_blank"}), l'une des grandes écoles françaises de référence en statistique et data science.
+<header class="hero">
+  <svg class="topo" viewBox="0 0 600 420" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
+    <g fill="none" stroke="currentColor" stroke-width="1.2">
+      <ellipse cx="400" cy="210" rx="250" ry="170" transform="rotate(-14 400 210)" pathLength="1"/>
+      <ellipse cx="395" cy="205" rx="205" ry="137" transform="rotate(-9 395 205)" pathLength="1"/>
+      <ellipse cx="392" cy="200" rx="160" ry="106" transform="rotate(-4 392 200)" pathLength="1"/>
+      <ellipse cx="392" cy="196" rx="118" ry="76" transform="rotate(3 392 196)" pathLength="1"/>
+      <ellipse cx="394" cy="192" rx="78" ry="48" transform="rotate(10 394 192)" pathLength="1"/>
+      <ellipse cx="396" cy="190" rx="40" ry="24" transform="rotate(16 396 190)" pathLength="1"/>
+    </g>
+    <circle cx="396" cy="190" r="5" class="peak"/>
+    <text x="410" y="176" class="peak-label">pic</text>
+  </svg>
+  <div class="hero-text">
+    <p class="coords">48.11° N · 1.68° O — Rennes</p>
+    <h1>Haïwé Adam Ouangko</h1>
+    <p class="role">Élève ingénieur, Statistique &amp; Data Science (ENSAI)</p>
+    <p class="pitch">Formé à la modélisation statistique, au machine learning et à l'ingénierie de données. Recherche appliquée en santé publique, coauteur d'une publication chez Frontiers.</p>
+    <p class="seek"><span class="dot"></span>Recherche un stage en data science à partir de mai ou juin 2027</p>
+    <nav class="links">
+      <a href="mailto:haiweadam99@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/ha%C3%AFw%C3%A8-adam-ouangko-0377722b3/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/HaInnovate24" target="_blank">GitHub</a>
+      <a href="CV_HAIWE_ADAM.pdf" target="_blank">CV en PDF</a>
+    </nav>
+  </div>
+</header>
 
-De la cartographie environnementale à la modélisation prédictive, j'aime transformer des données brutes en résultats exploitables.
+<section>
+  <h2>Formation</h2>
+  <div class="grid2">
+    <article class="card">
+      <p class="date">2025 – 2028</p>
+      <h3>Diplôme d'ingénieur, Statistique &amp; Data Science</h3>
+      <p class="where"><a href="https://ensai.fr/en/" target="_blank">ENSAI</a>, École Nationale de la Statistique et de l'Analyse de l'Information, Rennes</p>
+    </article>
+    <article class="card">
+      <p class="date">2022 – 2025</p>
+      <h3>Licence MIASHS</h3>
+      <p class="where">Université Grenoble Alpes</p>
+      <p>Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales.</p>
+    </article>
+  </div>
+</section>
 
-:::
+<section>
+  <h2>Projet en cours</h2>
+  <article class="card feature">
+    <p class="date">2026 – en cours · Projet de l'ENSAI</p>
+    <h3>LaborScope, API d'analyse du marché du travail mondial</h3>
+    <p>API d'analyse des indicateurs ILOSTAT (OIT) par pays, sexe, âge et catégorie professionnelle.</p>
+    <ul>
+      <li>Pipeline de données : récupération automatisée via API, parsing CSV/JSON, nettoyage et stockage en base.</li>
+      <li>Analyses temporelles et comparatives, visualisations interactives, gestion des accès (utilisateur / administrateur).</li>
+    </ul>
+    <p class="chips sm"><span>Python</span><span>API REST</span><span>SQL</span><span>PostgreSQL</span><span>Streamlit / Dash</span><span>Git / GitHub</span></p>
+  </article>
+</section>
 
-## Formations
+<section>
+  <h2>Recherche et expérience en data science</h2>
+  <ol class="timeline">
+    <li>
+      <p class="date">Janv. – mai 2025</p>
+      <h3>Stage, laboratoire AGEIS (Grenoble)</h3>
+      <p>Endémies des maladies arbovirales et dynamique du moustique <em>Aedes albopictus</em> (Antilles, Mayotte, Sud de la France).</p>
+      <ul>
+        <li>Collecte et traitement de données épidémiologiques et climatiques (rapports de Santé publique France).</li>
+        <li>Statistiques descriptives et inférentielles (tests non paramétriques).</li>
+        <li>Cartographies thématiques comparant territoires tropicaux et métropole.</li>
+      </ul>
+    </li>
+    <li>
+      <p class="date">Oct. 2024 – janv. 2025</p>
+      <h3>Projet de recherche professionnel, AGEIS (Grenoble)</h3>
+      <p>Cartographie de la montée du moustique tigre dans le Sud de la France et de ses conséquences pathogènes.</p>
+      <ul>
+        <li>Cartographie climat–incidences pathogènes.</li>
+        <li>Corrélations et dynamique spatio-temporelle du moustique et de son lien avec la dengue, le Zika et le chikungunya.</li>
+      </ul>
+    </li>
+  </ol>
+</section>
 
-**Statistique et Data Science** — École Nationale de la Statistique et de l'Analyse de l'Information (ENSAI)
-: Cycle ingénieur, avant-dernière année
+<section>
+  <h2>Publications</h2>
+  <article class="card pub">
+    <p class="date">Publié · 2025</p>
+    <h3>Forecasting epidemic peaks with index of dispersion of new cases</h3>
+    <p class="where">J. Demongeot, <strong>H. A. Ouangko</strong>, M. Diarra, L. Gofti, <em>Frontiers in Applied Mathematics and Statistics</em></p>
+    <a class="btn" href="https://doi.org/10.3389/fams.2025.1670077" target="_blank">Lire l'article (DOI)</a>
+  </article>
+  <article class="card pub wip">
+    <p class="date">En cours</p>
+    <p>Généraliser la classification d'un maximum d'espèces à partir de la distance de leur génome à l'ARN archétypal AL.</p>
+  </article>
+</section>
 
-**Licence Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales (MIASHS)** — Université Grenoble Alpes
+<section>
+  <h2>Projets universitaires</h2>
+  <div class="grid2">
+    <article class="card"><h3>Statistique</h3><p>Impact du soutien familial sur la performance scolaire (données PISA 2022).</p></article>
+    <article class="card"><h3>Économie</h3><p>Impact inflationniste des chocs exogènes sur les prix du gaz en Afrique.</p></article>
+    <article class="card"><h3>Machine learning</h3><p>Modélisation prédictive du diabète de type 2 (population Pima).</p></article>
+    <article class="card"><h3>Économétrie</h3><p>Déterminants du prix des biens immobiliers.</p></article>
+  </div>
+</section>
 
-## Publications
+<section>
+  <h2>Compétences</h2>
+  <dl class="skills">
+    <dt>Langages et outils</dt><dd class="chips"><span>Python</span><span>R</span><span>SQL</span><span>Gretl</span></dd>
+    <dt>Statistique et machine learning</dt><dd>Modélisation statistique, régression, séries temporelles, arbres CART et forêts aléatoires, économétrie et inférence causale, échantillonnage et estimation, méthodes pour données incomplètes.</dd>
+    <dt>Data engineering</dt><dd>API REST, collecte automatisée, parsing JSON/CSV, bases de données, pipelines de données.</dd>
+    <dt>Visualisation</dt><dd>Cartographie thématique, visualisation de données, data storytelling.</dd>
+    <dt>Langues</dt><dd>Français (natif), anglais (B1+).</dd>
+  </dl>
+</section>
 
-Demongeot J, **H. Adam Ouangko**, M. Diarra, L. Gofti-Laroche (2025). *Forecasting epidemic peaks with the index of dispersion of new cases*. Frontiers in Applied Mathematics and Statistics, 11:1670077. [doi.org/10.3389/fams.2025.1670077](https://doi.org/10.3389/fams.2025.1670077)
+<section class="split">
+  <div>
+    <h2>Savoir-être</h2>
+    <p class="soft">Esprit d'analyse et de synthèse, créativité, rigueur méthodologique, résolution de problèmes, autonomie, collaboration en équipe, adaptabilité, esprit d'initiative, gestion efficace des priorités.</p>
+  </div>
+  <div>
+    <h2>Centres d'intérêt</h2>
+    <p class="soft">Football, jeux vidéo, badminton, randonnée, lecture (politique et innovation).</p>
+  </div>
+</section>
 
-## Expériences en Data Science / Statistique
-
-### Stage — AGEIS (Autonomie, Gérontechnologie, E-santé, Imagerie et Société), Grenoble
-**01/2025 – 05/2025**
-
-Étude de l'endémie de maladies arbovirales et du moustique *Aedes albopictus* dans les Antilles et à Mayotte, avec analogie au Sud de la France selon les variables climatiques.
-
-- Collecte et traitement de données épidémiologiques et climatiques à partir de rapports PDF de Santé Publique France.
-- Statistiques descriptives et inférentielles (tests non paramétriques).
-- Production de cartographies thématiques des indicateurs climatiques, entomologiques et arboviraux.
-- Comparaison des dynamiques observées entre les Antilles/Mayotte et le Sud de la France.
-
-### Projet de recherche professionnel — AGEIS, Grenoble
-**10/2024 – 01/2025**
-
-Cartographie et analyse statistique de la progression du moustique tigre et de ses impacts sanitaires dans le Sud de la France.
-
-- Collecte de données de températures, précipitations, cas et prévalences par zone géographique.
-- Développement d'une cartographie croisant climat et incidence pathogène.
-- Réalisation de tests statistiques (corrélations, régressions spatio-temporelles).
-
-### Projets universitaires
-
-- **Statistique** — Impact du soutien familial sur la performance scolaire (données PISA 2022)
-- **Économie** — Analyse de l'impact inflationniste des chocs exogènes sur les prix du gaz en Afrique
-- **Machine Learning** — Modélisation prédictive du diabète de type 2 (population Pima)
-- **Économétrie** — Étude des déterminants du prix des biens immobiliers
-
-## Autres expériences professionnelles
-
-### Équipier de vente — Carrefour (Grenoble, puis Rennes Alma)
-**07/2022 – aujourd'hui**
-
-- Accueil et conseil de la clientèle.
-- Optimisation des stocks.
-
-### Agent de tri postal — La Poste, Lyon
-**04/2021 – 07/2021**
-
-- Amélioration du rythme de production dans le respect des normes de qualité.
-
-## Compétences techniques
-
-**Langages et outils** : R · Python · SQL · Gretl
-
-::: {.callout-tip appearance="minimal"}
-**Soft skills** — Autonomie et sens de l'initiative · Adaptabilité et ouverture culturelle · Collaboration et esprit d'équipe · Communication efficace · Aisance avec les outils numériques
-:::
-
-## Centres d'intérêt
-
-Musique · Lecture · Football · Tennis · Badminton · Randonnée · EA SPORTS FC
-
+</main>
+```

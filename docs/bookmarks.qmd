@@ -1,29 +1,42 @@
 ---
-title: "Helpful resources"
-description: "Collection of Interesting Links"
+title: "Ressources utiles"
+description: "Collection de liens intéressants"
 format: html
 from: markdown+emoji
 ---
 
+::: {.cv}
+
+## Statistiques et R
+
+- [utilitR](https://book.utilitr.org/){target="_blank"}, documentation collaborative sur `R` par l'Insee
+- [guide-R](https://larmarange.github.io/guide-R/){target="_blank"}, guide d'analyse d'enquêtes avec R
+- [Contes et stats R](https://perso.ens-lyon.fr/lise.vaudor/grimoireStat/_book/intro.html){target="_blank"}
+- [Le blog - ThinkR - Certification & Formation langage R](https://thinkr.fr/blog/){target="_blank"}, un blog très intéressant
+- [Introduction to R Training](https://teaching.slmc.fr/r/index.html){target="_blank"}, par Martin Chevalier (INSEE)
+- [Advanced R Training](https://teaching.slmc.fr/perf/){target="_blank"}, par Martin Chevalier (INSEE)
+
+## Cours d'analyse de données
+
+- [Analysez et nettoyez vos données avec R](https://openclassrooms.com/fr/courses/8282361-analysez-et-nettoyez-vos-donnees-avec-r){target="_blank"}
+- [Stat' Apprendra](https://www.youtube.com/channel/UC_PsZx6zW4gSb2HqTPbKblg){target="_blank"}, chaîne YouTube de vulgarisation des statistiques
+
 ## Science
 
-- [The evolution of trust](https://ncase.me/trust/){target="_blank"} by [Nicky Case](https://ncase.me/){target="_blank"} --- ![FR](img/icon-fr.png) [L'évolution de la confiance](https://ayowel.github.io/trust/){target="_blank"}
-- [Solving Rush Hour](https://www.michaelfogleman.com/rush/){target="_blank"} by Michael Fogleman
+- [The evolution of trust](https://ncase.me/trust/){target="_blank"} par [Nicky Case](https://ncase.me/){target="_blank"} --- ![FR](img/icon-fr.png) [L'évolution de la confiance](https://ayowel.github.io/trust/){target="_blank"}
+- [Solving Rush Hour](https://www.michaelfogleman.com/rush/){target="_blank"} par Michael Fogleman
 - [What if? (serious answers to absurd questions)](https://what-if.xkcd.com/){target="_blank"}
 - ![FR](img/icon-fr.png) [Python pour la data science](https://pythonds.linogaliana.fr/){target="_blank"}
 
-
-## Society
+## Société
 
 - [Tea consent](https://www.youtube.com/watch?v=oQbei5JGiT8&ab_channel=BlueSeatStudios){target="_blank"}
 
-
-## Funny
+## Drôle
 
 - [Commit Strip](https://www.commitstrip.com/en/){target="_blank"}
 - [Conway's Game of Life](https://playgameoflife.com/){target="_blank"}
-  - [Interactive simulation](https://www.samcodes.co.uk/project/game-of-life/){target="_blank"}
-
+  - [Simulation interactive](https://www.samcodes.co.uk/project/game-of-life/){target="_blank"}
 
 ## Puzzles
 
@@ -32,17 +45,4 @@ from: markdown+emoji
 - ![FR](img/icon-fr.png) [La chasse aux œufs](https://chassetxt.fr/){target="_blank"}
 - [Advent of code](https://adventofcode.com/){target="_blank"}
 
-
-## Statistics and R
-
-- [utilitR](https://book.utilitr.org/){target="_blank"}, Collaborative documentation on `R` by Insee
-- [guide-R](https://larmarange.github.io/guide-R/){target="_blank"}, Guide to Analyzing Survey Data with R
-- [Contes et stats R](https://perso.ens-lyon.fr/lise.vaudor/grimoireStat/_book/intro.html){target="_blank"}
-- [Le blog - ThinkR - Certification & Formation langage R](https://thinkr.fr/blog/){target="_blank"}, A very interesting blog
-- [Introduction to R Training](https://teaching.slmc.fr/r/index.html){target="_blank"}, By Martin Chevalier (INSEE)
-- [Advanced R Training](https://teaching.slmc.fr/perf/){target="_blank"}, By Martin Chevalier (INSEE)
-
-## Data Analysis Course
-
-- [Analyze and clean your data with R](https://openclassrooms.com/fr/courses/8282361-analysez-et-nettoyez-vos-donnees-avec-r){target="_blank"}
-- [Stat' Apprendra](https://www.youtube.com/channel/UC_PsZx6zW4gSb2HqTPbKblg){target="_blank"}, A YouTube channel for popularizing statistics
+:::
