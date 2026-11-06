@@ -1,6 +1,10 @@
 ---
 title: "Haïwé Adam Ouangko — CV"
 pagetitle: "Haïwé Adam Ouangko · Statistique & Data Science"
+description: "Élève ingénieur en Statistique et Data Science à l'ENSAI. Recherche un stage en data science à partir de mai ou juin 2027."
+image: images/og.png
+open-graph: true
+twitter-card: true
 format:
   html:
     page-layout: custom
@@ -12,6 +16,10 @@ from: markdown+emoji
 
 ```{=html}
 <main class="cv">
+
+<nav class="toc" aria-label="Sections">
+  <a href="#formation">Formation</a><a href="#projet">Projet</a><a href="#recherche">Recherche</a><a href="#publications">Publications</a><a href="#competences">Compétences</a>
+</nav>
 
 <header class="hero">
   <svg class="topo" viewBox="0 0 600 420" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
@@ -26,6 +34,13 @@ from: markdown+emoji
     <circle cx="396" cy="190" r="5" class="peak"/>
     <text x="410" y="176" class="peak-label">pic</text>
   </svg>
+  <figure class="curve" id="curve">
+    <svg viewBox="0 0 300 120" role="img" aria-label="Courbe épidémique schématique : survolez ou utilisez les flèches pour la parcourir" tabindex="0">
+      <path id="c-area" fill="rgba(200,150,62,.14)"/><path id="c-line" fill="none" stroke="#C8963E" stroke-width="2"/>
+      <line id="c-v" y1="8" y2="108" stroke="#8fa6bf" stroke-dasharray="3 3"/><circle id="c-dot" r="4.5" fill="#fff"/>
+    </svg>
+    <figcaption><span id="c-out">Courbe schématique : survolez-la.</span> <em>Illustration, pas des données réelles.</em></figcaption>
+  </figure>
   <div class="hero-text">
     <p class="coords">48.11° N · 1.68° O — Rennes</p>
     <h1>Haïwé Adam Ouangko</h1>
@@ -36,12 +51,12 @@ from: markdown+emoji
       <a href="mailto:haiweadam99@gmail.com">Email</a>
       <a href="https://www.linkedin.com/in/ha%C3%AFw%C3%A8-adam-ouangko-0377722b3/" target="_blank">LinkedIn</a>
       <a href="https://github.com/HaInnovate24" target="_blank">GitHub</a>
-      <a href="CV_HAIWE_ADAM.pdf" target="_blank">CV en PDF</a>
+      <a href="CV_HAIWE_ADAM.pdf" download="CV_Haiwe_Adam_Ouangko.pdf">CV en PDF</a>
     </nav>
   </div>
 </header>
 
-<section>
+<section id="formation">
   <h2>Formation</h2>
   <div class="grid2">
     <article class="card">
@@ -58,11 +73,12 @@ from: markdown+emoji
   </div>
 </section>
 
-<section>
+<section id="projet">
   <h2>Projet en cours</h2>
   <article class="card feature">
     <p class="date">2026 – en cours · Projet de l'ENSAI</p>
     <h3>LaborScope, API d'analyse du marché du travail mondial</h3>
+    <p class="status"><span class="dot"></span>En cours de développement · <a href="laborscope.html">Voir la page du projet</a></p>
     <p>API d'analyse des indicateurs ILOSTAT (OIT) par pays, sexe, âge et catégorie professionnelle.</p>
     <ul>
       <li>Pipeline de données : récupération automatisée via API, parsing CSV/JSON, nettoyage et stockage en base.</li>
@@ -72,7 +88,7 @@ from: markdown+emoji
   </article>
 </section>
 
-<section>
+<section id="recherche">
   <h2>Recherche et expérience en data science</h2>
   <ol class="timeline">
     <li>
@@ -97,7 +113,7 @@ from: markdown+emoji
   </ol>
 </section>
 
-<section>
+<section id="publications">
   <h2>Publications</h2>
   <article class="card pub">
     <p class="date">Publié · 2025</p>
@@ -121,7 +137,7 @@ from: markdown+emoji
   </div>
 </section>
 
-<section>
+<section id="competences">
   <h2>Compétences</h2>
   <dl class="skills">
     <dt>Langages et outils</dt><dd class="chips"><span>Python</span><span>R</span><span>SQL</span><span>Gretl</span></dd>
@@ -144,4 +160,26 @@ from: markdown+emoji
 </section>
 
 </main>
+<script>
+(function(){
+  var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var g=function(t){var sd=t<58?18:26;return Math.exp(-Math.pow((t-58)/sd,2))};
+  var X=function(t){return 10+t*2.8},Y=function(v){return 108-v*92},d='';
+  for(var t=0;t<=100;t+=2){d+=(t?'L':'M')+X(t).toFixed(1)+' '+Y(g(t)).toFixed(1)}
+  var line=document.getElementById('c-line'),area=document.getElementById('c-area');
+  if(!line)return;
+  line.setAttribute('d',d);area.setAttribute('d',d+'L'+X(100)+' 108L'+X(0)+' 108Z');
+  var v=document.getElementById('c-v'),dot=document.getElementById('c-dot'),out=document.getElementById('c-out'),svg=line.ownerSVGElement;
+  function at(t){t=Math.max(0,Math.min(100,t));var x=X(t),y=Y(g(t));
+    v.setAttribute('x1',x);v.setAttribute('x2',x);dot.setAttribute('cx',x);dot.setAttribute('cy',y);
+    out.textContent=Math.abs(t-58)<3?'Pic épidémique schématique.':'Incidence relative : '+Math.round(g(t)*100)+' %.'}
+  var cur=58;at(cur);
+  svg.addEventListener('pointermove',function(e){var r=svg.getBoundingClientRect();cur=((e.clientX-r.left)/r.width*300-10)/2.8;at(cur)});
+  svg.addEventListener('keydown',function(e){if(e.key==='ArrowRight'){cur+=3}else if(e.key==='ArrowLeft'){cur-=3}else return;e.preventDefault();cur=Math.max(0,Math.min(100,cur));at(cur)});
+  var hero=document.querySelector('.hero');
+  if(!reduce&&hero){var el=hero.querySelectorAll('.topo ellipse');
+    hero.addEventListener('pointermove',function(e){var r=hero.getBoundingClientRect(),x=(e.clientX-r.left)/r.width-.5,y=(e.clientY-r.top)/r.height-.5;
+      el.forEach(function(n,i){n.style.translate=(-x*(6+i*5))+'px '+(-y*(4+i*3))+'px'})})}
+})();
+</script>
 ```

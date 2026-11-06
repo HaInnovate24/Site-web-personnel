@@ -8,11 +8,16 @@ project:
 website:
   favicon: docs/img/favicon-32x32.png
   title: "Haïwé Adam Ouangko"
+  site-url: "https://hainnovate24.github.io/Site-web-personnel"
+  open-graph: true
+  twitter-card: true
   navbar:
     background: "#0E1B2C"
     left:
       - href: index.qmd
         text: CV
+      - href: laborscope.qmd
+        text: LaborScope
     right:
       - href: docs/bookmarks.qmd
         text: Ressources utiles

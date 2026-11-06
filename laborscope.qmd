@@ -1,0 +1,45 @@
+---
+title: "LaborScope"
+pagetitle: "LaborScope · Haïwé Adam Ouangko"
+description: "API d'analyse du marché du travail mondial à partir des données ILOSTAT (OIT). Projet de l'ENSAI, en cours."
+image: images/og.png
+open-graph: true
+format:
+  html:
+    page-layout: custom
+    title-block-style: none
+    toc: false
+    css: styles.css
+---
+
+```{=html}
+<main class="cv narrow">
+<p class="back"><a href="index.html">Retour au CV</a></p>
+<h1 class="pagetitle">LaborScope</h1>
+<p class="lead">API d'analyse des indicateurs ILOSTAT (Organisation internationale du Travail) sur le marché du travail, à l'échelle internationale : par pays, sexe, âge et catégorie professionnelle.</p>
+<p class="status"><span class="dot"></span>Projet de l'ENSAI, 2026 · en cours de développement</p>
+
+<section>
+  <h2>Chaîne de traitement</h2>
+  <ol class="flow">
+    <li><strong>Récupération</strong>Collecte automatisée des données via l'API ILOSTAT.</li>
+    <li><strong>Parsing</strong>Lecture des formats CSV et JSON.</li>
+    <li><strong>Nettoyage</strong>Mise en forme et contrôle des données.</li>
+    <li><strong>Stockage</strong>Enregistrement en base de données (PostgreSQL).</li>
+    <li><strong>Analyse</strong>Analyses temporelles et comparatives, visualisations interactives.</li>
+    <li><strong>Accès</strong>Gestion des accès : utilisateur et administrateur.</li>
+  </ol>
+</section>
+
+<section>
+  <h2>Technologies</h2>
+  <p class="chips sm"><span>Python</span><span>API REST</span><span>SQL</span><span>PostgreSQL</span><span>Streamlit / Dash</span><span>Git / GitHub</span></p>
+</section>
+
+<section>
+  <h2>Où en est le projet</h2>
+  <p>Le projet est en cours. Cette page sera complétée avec le code source, une démonstration et des captures d'écran lorsqu'il sera terminé.</p>
+  <!-- À AJOUTER À LA FIN DU PROJET : lien GitHub (bouton .btn), lien de démo, 2 ou 3 captures d'écran, résultats chiffrés (nombre de pays, d'indicateurs, temps de traitement). Retirer ensuite le statut "en cours" ici et dans index.qmd. -->
+</section>
+</main>
+```
