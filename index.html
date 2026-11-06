@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.11.9">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Haïwé ADAM OUANGKO - CV – My website</title>
+<title>Haïwé Adam Ouangko · Statistique &amp; Data Science – Haïwé Adam Ouangko</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -39,15 +39,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="./docs/img/favicon-32x32.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-3c7c1f7857f942ea84070950f085c88b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-67b195e10dca2ff929fe2d79d640cc80.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-54b05e84a041fdcba29d2515ed720d36.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -80,192 +80,31 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-dark"><script id="quarto-html-before-body" type="application/javascript">
-    const toggleBodyColorMode = (bsSheetEl) => {
-      const mode = bsSheetEl.getAttribute("data-mode");
-      const bodyEl = window.document.querySelector("body");
-      if (mode === "dark") {
-        bodyEl.classList.add("quarto-dark");
-        bodyEl.classList.remove("quarto-light");
-      } else {
-        bodyEl.classList.add("quarto-light");
-        bodyEl.classList.remove("quarto-dark");
-      }
-    }
-    const toggleBodyColorPrimary = () => {
-      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
-      if (bsSheetEl) {
-        toggleBodyColorMode(bsSheetEl);
-      }
-    }
-    const setColorSchemeToggle = (alternate) => {
-      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-      for (let i=0; i < toggles.length; i++) {
-        const toggle = toggles[i];
-        if (toggle) {
-          if (alternate) {
-            toggle.classList.add("alternate");
-          } else {
-            toggle.classList.remove("alternate");
-          }
-        }
-      }
-    };
-    const toggleColorMode = (alternate) => {
-      // Switch the stylesheets
-      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
-      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-      manageTransitions('#quarto-margin-sidebar .nav-link', false);
-      if (alternate) {
-        // note: dark is layered on light, we don't disable primary!
-        enableStylesheet(alternateStylesheets);
-        for (const sheetNode of alternateStylesheets) {
-          if (sheetNode.id === "quarto-bootstrap") {
-            toggleBodyColorMode(sheetNode);
-          }
-        }
-      } else {
-        disableStylesheet(alternateStylesheets);
-        enableStylesheet(primaryStylesheets)
-        toggleBodyColorPrimary();
-      }
-      manageTransitions('#quarto-margin-sidebar .nav-link', true);
-      // Switch the toggles
-      setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
-      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-        manageTransitions("body", false);
-        window.scrollTo(0, 1);
-        setTimeout(() => {
-          window.scrollTo(0, 0);
-          manageTransitions("body", true);
-        }, 40);
-      }
-    }
-    const disableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        stylesheet.rel = 'disabled-stylesheet';
-      }
-    }
-    const enableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
-          stylesheet.rel = 'stylesheet';
-        }
-      }
-    }
-    const manageTransitions = (selector, allowTransitions) => {
-      const els = window.document.querySelectorAll(selector);
-      for (let i=0; i < els.length; i++) {
-        const el = els[i];
-        if (allowTransitions) {
-          el.classList.remove('notransition');
-        } else {
-          el.classList.add('notransition');
-        }
-      }
-    }
-    const isFileUrl = () => {
-      return window.location.protocol === 'file:';
-    }
-    const hasAlternateSentinel = () => {
-      let styleSentinel = getColorSchemeSentinel();
-      if (styleSentinel !== null) {
-        return styleSentinel === "alternate";
-      } else {
-        return false;
-      }
-    }
-    const setStyleSentinel = (alternate) => {
-      const value = alternate ? "alternate" : "default";
-      if (!isFileUrl()) {
-        window.localStorage.setItem("quarto-color-scheme", value);
-      } else {
-        localAlternateSentinel = value;
-      }
-    }
-    const getColorSchemeSentinel = () => {
-      if (!isFileUrl()) {
-        const storageValue = window.localStorage.getItem("quarto-color-scheme");
-        return storageValue != null ? storageValue : localAlternateSentinel;
-      } else {
-        return localAlternateSentinel;
-      }
-    }
-    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-      let newTheme = '';
-      if(authorPrefersDark) {
-        newTheme = isAlternate ? baseTheme : alternateTheme;
-      } else {
-        newTheme = isAlternate ? alternateTheme : baseTheme;
-      }
-      const changeGiscusTheme = () => {
-        // From: https://github.com/giscus/giscus/issues/336
-        const sendMessage = (message) => {
-          const iframe = document.querySelector('iframe.giscus-frame');
-          if (!iframe) return;
-          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-        }
-        sendMessage({
-          setConfig: {
-            theme: newTheme
-          }
-        });
-      }
-      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-      if (isGiscussLoaded) {
-        changeGiscusTheme();
-      }
-    };
-    const authorPrefersDark = true;
-    const darkModeDefault = authorPrefersDark;
-    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-    // Dark / light mode switch
-    window.quartoToggleColorScheme = () => {
-      // Read the current dark / light value
-      let toAlternate = !hasAlternateSentinel();
-      toggleColorMode(toAlternate);
-      setStyleSentinel(toAlternate);
-      toggleGiscusIfUsed(toAlternate, darkModeDefault);
-      window.dispatchEvent(new Event('resize'));
-    };
-    // Switch to dark mode if need be
-    if (hasAlternateSentinel()) {
-      toggleColorMode(true);
-    } else {
-      toggleColorMode(false);
-    }
-  </script>
+<body class="nav-fixed fullcontent quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">My website</span>
+    <span class="navbar-title">Haïwé Adam Ouangko</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Home</span></a>
+<span class="menu-text">CV</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="./docs/bookmarks.html"> 
-<span class="menu-text">Helpful Resources</span></a>
+<span class="menu-text">Ressources utiles</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/HaInnovate24" target="_blank"> <i class="bi bi-github" role="img">
@@ -275,158 +114,169 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
-  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
-  <div class="quarto-reader-toggle-btn">
-  <i class="bi"></i>
-  </div>
-</a>
 </div>
+            <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="images/image_ensai.jpg" class="about-image
-  round " style="height: 14em; width: 14em;">
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Haïwé ADAM OUANGKO - CV</h1>
-<p class="subtitle lead">Élève ingénieur en Statistique et Data Science — ENSAI</p>
-</div>
-<div class="quarto-title-meta">
+
+<header id="title-block-header">
+
+
+</header>
+
+
+<main class="cv" id="quarto-document-content" tabindex="-1"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">Haïwé Adam Ouangko — CV</h1></header>
+
+<header class="hero">
+  <svg class="topo" viewbox="0 0 600 420" aria-hidden="true" preserveaspectratio="xMidYMid slice">
+    <g fill="none" stroke="currentColor" stroke-width="1.2">
+      <ellipse cx="400" cy="210" rx="250" ry="170" transform="rotate(-14 400 210)" pathlength="1"></ellipse>
+      <ellipse cx="395" cy="205" rx="205" ry="137" transform="rotate(-9 395 205)" pathlength="1"></ellipse>
+      <ellipse cx="392" cy="200" rx="160" ry="106" transform="rotate(-4 392 200)" pathlength="1"></ellipse>
+      <ellipse cx="392" cy="196" rx="118" ry="76" transform="rotate(3 392 196)" pathlength="1"></ellipse>
+      <ellipse cx="394" cy="192" rx="78" ry="48" transform="rotate(10 394 192)" pathlength="1"></ellipse>
+      <ellipse cx="396" cy="190" rx="40" ry="24" transform="rotate(16 396 190)" pathlength="1"></ellipse>
+    </g>
+    <circle cx="396" cy="190" r="5" class="peak"></circle>
+    <text x="410" y="176" class="peak-label">pic</text>
+  </svg>
+  <div class="hero-text">
+    <p class="coords">48.11° N · 1.68° O — Rennes</p>
+    <h1>Haïwé Adam Ouangko</h1>
+    <p class="role">Élève ingénieur, Statistique &amp; Data Science (ENSAI)</p>
+    <p class="pitch">Formé à la modélisation statistique, au machine learning et à l'ingénierie de données. Recherche appliquée en santé publique, coauteur d'une publication chez Frontiers.</p>
+    <p class="seek"><span class="dot"></span>Recherche un stage en data science à partir de mai ou juin 2027</p>
+    <nav class="links">
+      <a href="mailto:haiweadam99@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/ha%C3%AFw%C3%A8-adam-ouangko-0377722b3/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/HaInnovate24" target="_blank">GitHub</a>
+      <a href="CV_HAIWE_ADAM.pdf" target="_blank">CV en PDF</a>
+    </nav>
   </div>
 </header>
-    <div class="about-links">
-  <a href="https://github.com/HaInnovate24" class="about-link" rel="" target="_blank">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-  <a href="mailto:haiweadam99@gmail.com" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-  <a href="https://www.linkedin.com/in/ha%C3%AFw%C3%A8-adam-ouangko-0377722b3/" class="about-link" rel="" target="_blank">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-</div>
+
+<section>
+  <h2 class="anchored">Formation</h2>
+  <div class="grid2">
+    <article class="card">
+      <p class="date">2025 – 2028</p>
+      <h3 class="anchored">Diplôme d'ingénieur, Statistique &amp; Data Science</h3>
+      <p class="where"><a href="https://ensai.fr/en/" target="_blank">ENSAI</a>, École Nationale de la Statistique et de l'Analyse de l'Information, Rennes</p>
+    </article>
+    <article class="card">
+      <p class="date">2022 – 2025</p>
+      <h3 class="anchored">Licence MIASHS</h3>
+      <p class="where">Université Grenoble Alpes</p>
+      <p>Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales.</p>
+    </article>
   </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
+</section>
 
-<div class="justify">
-<p>Bonjour ! Je m’appelle Haïwé ADAM OUANGKO, élève ingénieur en avant-dernière année à l’École Nationale de la Statistique et de l’Analyse de l’Information (<a href="https://ensai.fr/en/" target="_blank">ENSAI</a>), l’une des grandes écoles françaises de référence en statistique et data science.</p>
-<p>De la cartographie environnementale à la modélisation prédictive, j’aime transformer des données brutes en résultats exploitables.</p>
-</div>
-<section id="formations" class="level2">
-<h2 data-anchor-id="formations">Formations</h2>
-<dl>
-<dt><strong>Statistique et Data Science</strong> — École Nationale de la Statistique et de l’Analyse de l’Information (ENSAI)</dt>
-<dd>
-Cycle ingénieur, avant-dernière année
-</dd>
-</dl>
-<p><strong>Licence Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales (MIASHS)</strong> — Université Grenoble Alpes</p>
+<section>
+  <h2 class="anchored">Projet en cours</h2>
+  <article class="card feature">
+    <p class="date">2026 – en cours · Projet de l'ENSAI</p>
+    <h3 class="anchored">LaborScope, API d'analyse du marché du travail mondial</h3>
+    <p>API d'analyse des indicateurs ILOSTAT (OIT) par pays, sexe, âge et catégorie professionnelle.</p>
+    <ul>
+      <li>Pipeline de données : récupération automatisée via API, parsing CSV/JSON, nettoyage et stockage en base.</li>
+      <li>Analyses temporelles et comparatives, visualisations interactives, gestion des accès (utilisateur / administrateur).</li>
+    </ul>
+    <p class="chips sm"><span>Python</span><span>API REST</span><span>SQL</span><span>PostgreSQL</span><span>Streamlit / Dash</span><span>Git / GitHub</span></p>
+  </article>
 </section>
-<section id="publications" class="level2">
-<h2 data-anchor-id="publications">Publications</h2>
-<p>Demongeot J, <strong>H. Adam Ouangko</strong>, M. Diarra, L. Gofti-Laroche (2025). <em>Forecasting epidemic peaks with the index of dispersion of new cases</em>. Frontiers in Applied Mathematics and Statistics, 11:1670077. <a href="https://doi.org/10.3389/fams.2025.1670077">doi.org/10.3389/fams.2025.1670077</a></p>
+
+<section>
+  <h2 class="anchored">Recherche et expérience en data science</h2>
+  <ol class="timeline">
+    <li>
+      <p class="date">Janv. – mai 2025</p>
+      <h3 class="anchored">Stage, laboratoire AGEIS (Grenoble)</h3>
+      <p>Endémies des maladies arbovirales et dynamique du moustique <em>Aedes albopictus</em> (Antilles, Mayotte, Sud de la France).</p>
+      <ul>
+        <li>Collecte et traitement de données épidémiologiques et climatiques (rapports de Santé publique France).</li>
+        <li>Statistiques descriptives et inférentielles (tests non paramétriques).</li>
+        <li>Cartographies thématiques comparant territoires tropicaux et métropole.</li>
+      </ul>
+    </li>
+    <li>
+      <p class="date">Oct. 2024 – janv. 2025</p>
+      <h3 class="anchored">Projet de recherche professionnel, AGEIS (Grenoble)</h3>
+      <p>Cartographie de la montée du moustique tigre dans le Sud de la France et de ses conséquences pathogènes.</p>
+      <ul>
+        <li>Cartographie climat–incidences pathogènes.</li>
+        <li>Corrélations et dynamique spatio-temporelle du moustique et de son lien avec la dengue, le Zika et le chikungunya.</li>
+      </ul>
+    </li>
+  </ol>
 </section>
-<section id="expériences-en-data-science-statistique" class="level2">
-<h2 data-anchor-id="expériences-en-data-science-statistique">Expériences en Data Science / Statistique</h2>
-<section id="stage-ageis-autonomie-gérontechnologie-e-santé-imagerie-et-société-grenoble" class="level3">
-<h3 data-anchor-id="stage-ageis-autonomie-gérontechnologie-e-santé-imagerie-et-société-grenoble">Stage — AGEIS (Autonomie, Gérontechnologie, E-santé, Imagerie et Société), Grenoble</h3>
-<p><strong>01/2025 – 05/2025</strong></p>
-<p>Étude de l’endémie de maladies arbovirales et du moustique <em>Aedes albopictus</em> dans les Antilles et à Mayotte, avec analogie au Sud de la France selon les variables climatiques.</p>
-<ul>
-<li>Collecte et traitement de données épidémiologiques et climatiques à partir de rapports PDF de Santé Publique France.</li>
-<li>Statistiques descriptives et inférentielles (tests non paramétriques).</li>
-<li>Production de cartographies thématiques des indicateurs climatiques, entomologiques et arboviraux.</li>
-<li>Comparaison des dynamiques observées entre les Antilles/Mayotte et le Sud de la France.</li>
-</ul>
+
+<section>
+  <h2 class="anchored">Publications</h2>
+  <article class="card pub">
+    <p class="date">Publié · 2025</p>
+    <h3 class="anchored">Forecasting epidemic peaks with index of dispersion of new cases</h3>
+    <p class="where">J. Demongeot, <strong>H. A. Ouangko</strong>, M. Diarra, L. Gofti, <em>Frontiers in Applied Mathematics and Statistics</em></p>
+    <a class="btn" href="https://doi.org/10.3389/fams.2025.1670077" target="_blank">Lire l'article (DOI)</a>
+  </article>
+  <article class="card pub wip">
+    <p class="date">En cours</p>
+    <p>Généraliser la classification d'un maximum d'espèces à partir de la distance de leur génome à l'ARN archétypal AL.</p>
+  </article>
 </section>
-<section id="projet-de-recherche-professionnel-ageis-grenoble" class="level3">
-<h3 data-anchor-id="projet-de-recherche-professionnel-ageis-grenoble">Projet de recherche professionnel — AGEIS, Grenoble</h3>
-<p><strong>10/2024 – 01/2025</strong></p>
-<p>Cartographie et analyse statistique de la progression du moustique tigre et de ses impacts sanitaires dans le Sud de la France.</p>
-<ul>
-<li>Collecte de données de températures, précipitations, cas et prévalences par zone géographique.</li>
-<li>Développement d’une cartographie croisant climat et incidence pathogène.</li>
-<li>Réalisation de tests statistiques (corrélations, régressions spatio-temporelles).</li>
-</ul>
+
+<section>
+  <h2 class="anchored">Projets universitaires</h2>
+  <div class="grid2">
+    <article class="card"><h3 class="anchored">Statistique</h3><p>Impact du soutien familial sur la performance scolaire (données PISA 2022).</p></article>
+    <article class="card"><h3 class="anchored">Économie</h3><p>Impact inflationniste des chocs exogènes sur les prix du gaz en Afrique.</p></article>
+    <article class="card"><h3 class="anchored">Machine learning</h3><p>Modélisation prédictive du diabète de type 2 (population Pima).</p></article>
+    <article class="card"><h3 class="anchored">Économétrie</h3><p>Déterminants du prix des biens immobiliers.</p></article>
+  </div>
 </section>
-<section id="projets-universitaires" class="level3">
-<h3 data-anchor-id="projets-universitaires">Projets universitaires</h3>
-<ul>
-<li><strong>Statistique</strong> — Impact du soutien familial sur la performance scolaire (données PISA 2022)</li>
-<li><strong>Économie</strong> — Analyse de l’impact inflationniste des chocs exogènes sur les prix du gaz en Afrique</li>
-<li><strong>Machine Learning</strong> — Modélisation prédictive du diabète de type 2 (population Pima)</li>
-<li><strong>Économétrie</strong> — Étude des déterminants du prix des biens immobiliers</li>
-</ul>
+
+<section>
+  <h2 class="anchored">Compétences</h2>
+  <dl class="skills">
+    <dt>Langages et outils</dt><dd class="chips"><span>Python</span><span>R</span><span>SQL</span><span>Gretl</span></dd>
+    <dt>Statistique et machine learning</dt><dd>Modélisation statistique, régression, séries temporelles, arbres CART et forêts aléatoires, économétrie et inférence causale, échantillonnage et estimation, méthodes pour données incomplètes.</dd>
+    <dt>Data engineering</dt><dd>API REST, collecte automatisée, parsing JSON/CSV, bases de données, pipelines de données.</dd>
+    <dt>Visualisation</dt><dd>Cartographie thématique, visualisation de données, data storytelling.</dd>
+    <dt>Langues</dt><dd>Français (natif), anglais (B1+).</dd>
+  </dl>
 </section>
+
+<section class="split">
+  <div>
+    <h2 class="anchored">Savoir-être</h2>
+    <p class="soft">Esprit d'analyse et de synthèse, créativité, rigueur méthodologique, résolution de problèmes, autonomie, collaboration en équipe, adaptabilité, esprit d'initiative, gestion efficace des priorités.</p>
+  </div>
+  <div>
+    <h2 class="anchored">Centres d'intérêt</h2>
+    <p class="soft">Football, jeux vidéo, badminton, randonnée, lecture (politique et innovation).</p>
+  </div>
 </section>
-<section id="autres-expériences-professionnelles" class="level2">
-<h2 data-anchor-id="autres-expériences-professionnelles">Autres expériences professionnelles</h2>
-<section id="équipier-de-vente-carrefour-grenoble-puis-rennes-alma" class="level3">
-<h3 data-anchor-id="équipier-de-vente-carrefour-grenoble-puis-rennes-alma">Équipier de vente — Carrefour (Grenoble, puis Rennes Alma)</h3>
-<p><strong>07/2022 – aujourd’hui</strong></p>
-<ul>
-<li>Accueil et conseil de la clientèle.</li>
-<li>Optimisation des stocks.</li>
-</ul>
-</section>
-<section id="agent-de-tri-postal-la-poste-lyon" class="level3">
-<h3 data-anchor-id="agent-de-tri-postal-la-poste-lyon">Agent de tri postal — La Poste, Lyon</h3>
-<p><strong>04/2021 – 07/2021</strong></p>
-<ul>
-<li>Amélioration du rythme de production dans le respect des normes de qualité.</li>
-</ul>
-</section>
-</section>
-<section id="compétences-techniques" class="level2">
-<h2 data-anchor-id="compétences-techniques">Compétences techniques</h2>
-<p><strong>Langages et outils</strong> : R · Python · SQL · Gretl</p>
-<div class="callout callout-style-simple callout-tip no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p><strong>Soft skills</strong> — Autonomie et sens de l’initiative · Adaptabilité et ouverture culturelle · Collaboration et esprit d’équipe · Communication efficace · Aisance avec les outils numériques</p>
-</div>
-</div>
-</div>
-</section>
-<section id="centres-dintérêt" class="level2">
-<h2 data-anchor-id="centres-dintérêt">Centres d’intérêt</h2>
-<p>Musique · Lecture · Football · Tennis · Badminton · Randonnée · EA SPORTS FC</p>
+
+</main>
 
 
-</section>
-</main></div>
-</div>
- <!-- /main -->
+
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    // Ensure there is a toggle, if there isn't float one in the top right
-    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-      const i = window.document.createElement("i");
-      i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
-    }
-    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -496,7 +346,8 @@ Cycle ingénieur, avant-dernière année
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
       // Inspect non-navigation links and adorn them if external
-     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
       for (var i=0; i<links.length; i++) {
         const link = links[i];
         if (!isInternal(link.href)) {
@@ -505,8 +356,69 @@ Cycle ingénieur, avant-dernière année
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+          if (!link.classList.contains('no-external-icon')) {
+          }
         }
       }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
       const config = {
         allowHTML: true,
@@ -520,6 +432,7 @@ Cycle ingénieur, avant-dernière année
         interactiveBorder: 10,
         theme: 'quarto',
         placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
       };
       if (contentFn) {
         config.content = contentFn;
@@ -682,44 +595,54 @@ Cycle ingénieur, avant-dernière année
           const lineIds = lines.map((line) => {
             return targetCell + "-" + line;
           })
-          let top = null;
-          let height = null;
-          let parent = null;
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
           if (lineIds.length > 0) {
-              //compute the position of the single el (top and bottom and make a div)
-              const el = window.document.getElementById(lineIds[0]);
-              top = el.offsetTop;
-              height = el.offsetHeight;
-              parent = el.parentElement.parentElement;
-            if (lineIds.length > 1) {
-              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-              height = bottom - top;
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
             }
-            if (top !== null && height !== null && parent !== null) {
-              // cook up a div (if necessary) and position it 
-              let div = window.document.getElementById("code-annotation-line-highlight");
-              if (div === null) {
-                div = window.document.createElement("div");
-                div.setAttribute("id", "code-annotation-line-highlight");
-                div.style.position = 'absolute';
-                parent.appendChild(div);
-              }
-              div.style.top = top - 2 + "px";
-              div.style.height = height + 4 + "px";
-              div.style.left = 0;
-              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-              if (gutterDiv === null) {
-                gutterDiv = window.document.createElement("div");
-                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-                gutterDiv.style.position = 'absolute';
-                const codeCell = window.document.getElementById(targetCell);
-                const gutter = codeCell.querySelector('.code-annotation-gutter');
-                gutter.appendChild(gutterDiv);
-              }
-              gutterDiv.style.top = top - 2 + "px";
-              gutterDiv.style.height = height + 4 + "px";
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
             }
+            placeBand(gutterDiv, el, lastEl);
             selectedAnnoteEl = annoteEl;
           }
         };
@@ -818,6 +741,9 @@ Cycle ingénieur, avant-dernière année
     }
   });
   </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
+  </script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -828,7 +754,7 @@ Cycle ingénieur, avant-dernière année
       &nbsp;
     </div>
     <div class="nav-footer-right">
-<p>Website built with <a href="https://quarto.org/" class="external" target="_blank">Quarto</a><br> <a href="https://github.com/HaInnovate24/Site-web-personnel" class="external" target="_blank">Source Code</a></p>
+<p>Site réalisé avec <a href="https://quarto.org/" class="external" target="_blank">Quarto</a><br> <a href="https://github.com/HaInnovate24/Site-web-personnel" class="external" target="_blank">Code source</a></p>
 </div>
   </div>
 </footer>
